@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Alejandro's Blog"
 title_separator          : "-"
 name                     : &name "Alejandro "
 description              : &description "personal description"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "About me"
-  avatar           : "profile.png"
+  avatar           : "alex.jpeg"
   bio              : "AI lover | Back-propagated poet"
   location         : "Mexico City"
   employer         :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : "@roher1727"
   vine             :
   weibo            :
   xing             :
