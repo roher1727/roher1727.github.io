@@ -1,7 +1,7 @@
 ---
 title: "Continuum robot testbed for wireless sensing"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publications/2019-08-07-paper-title-number-1
 excerpt: 'This poster is about my work made during my summer research at UCSD.'
 date: 2019-08-07
 venue: 'ENLACE'
