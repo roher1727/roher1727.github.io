@@ -1,7 +1,7 @@
 ---
 title: "Real Time Object Detection"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/program.gif'>"
+excerpt: "<br/><img src='/images/program.gif'>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Real Time Object Detection using YOLO v3, customizing to detect weapons and trucks in IP camera circuit.
