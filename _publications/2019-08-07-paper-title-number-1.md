@@ -9,4 +9,4 @@ paperurl: 'http://roher1727.github.io/files/poster.pdf'
 
 ---
 This poster is about my work made during my summer research at UCSD.
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+[Download paper here](http://roher1727.github.io/files/paper1.pdf)
