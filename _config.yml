@@ -80,7 +80,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "About me"
+  name             : ""
   avatar           : "alex.jpeg"
   bio              : "AI lover | Back-propagated poet"
   location         : "Mexico City"
@@ -96,14 +96,14 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "github.com/roher1727"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
   linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
