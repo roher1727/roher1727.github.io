@@ -31,7 +31,7 @@ navLinks.querySelectorAll('a').forEach(link => {
 // ============================================
 const revealElements = document.querySelectorAll(
   '.section-label, .section-title, .about-image, .about-content, ' +
-  '.project-card, .pub-card, .talk-card, .contact-card, .contact-text'
+  '.project-card, .pub-card, .talk-card, .contact-card, .contact-text, .timeline-item'
 );
 
 revealElements.forEach(el => el.classList.add('reveal'));

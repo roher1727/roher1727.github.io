@@ -423,6 +423,144 @@ img {
 }
 
 /* ============================================
+   Experience Timeline
+   ============================================ */
+.timeline {
+  position: relative;
+  padding-left: 32px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;
+  top: 8px;
+  bottom: 8px;
+  width: 1px;
+  background: var(--border);
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.timeline-item:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -29px;
+  top: 28px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: var(--bg-primary);
+  border: 2px solid var(--accent-1);
+  z-index: 1;
+}
+
+.timeline-item:first-child .timeline-dot {
+  background: var(--accent-1);
+  box-shadow: 0 0 12px rgba(129, 140, 248, 0.4);
+}
+
+.timeline-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 28px;
+  transition: var(--transition);
+}
+
+.timeline-card:hover {
+  border-color: var(--border-light);
+  background: var(--bg-card-hover);
+}
+
+.timeline-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.timeline-header h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.timeline-company {
+  font-size: 0.9375rem;
+  color: var(--accent-1);
+  font-weight: 500;
+  margin-top: 2px;
+}
+
+.timeline-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 2px;
+  flex-shrink: 0;
+}
+
+.timeline-date {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem;
+  color: var(--text-secondary);
+}
+
+.timeline-location {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.timeline-project {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+}
+
+.timeline-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.timeline-bullets {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.timeline-bullets li {
+  position: relative;
+  padding-left: 16px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.timeline-bullets li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent-2);
+}
+
+/* ============================================
    Projects
    ============================================ */
 .projects-grid {
